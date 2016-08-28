@@ -47,6 +47,7 @@ $(function() {
       var htmlString = taskHtml(data);
       var ulTodos = $('.todo-list');
       ulTodos.append(htmlString);
+      $('.new-todo').val('');
     });
   });
 });
